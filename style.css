@@ -86,6 +86,11 @@ body{
     padding-left: 25px;
 }
 
-.dropdown: hover .submenu{
+.dropdown:hover .submenu{
     display: block;
+}
+
+.hero{
+    margin-top: 75px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url("img/hero.jpg");
 }
