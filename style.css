@@ -29,7 +29,7 @@ body{
     font-size: 32px;
     font-weight: 700;
     color: white;
-    text-decoration: none;
+    text-decoration: none; /*tirar aspecto de link*/
     background-color: #e23636;
     padding: 2px 10px;
     letter-spacing: -2px;
