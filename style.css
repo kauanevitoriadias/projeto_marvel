@@ -64,4 +64,28 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
+    background-color: #222323;
+    min-width: 240px;
+    border-top: 3px solid #e23636;
+    display: none;
+    box-shadow: 0px 8px 16px rgba(0,0, 0, 0.6);
+}
+
+.submenu li a{ /*usando só a parte dos links*/
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-bottom: 1px solid #333;
+    transition: background-color 0.3s
+}
+
+.submenu li a:houver{
+    background-color: #000;
+    color:#e23636;
+    padding-left: 25px;
+}
+
+.dropdown: hover .submenu{
+    display: block;
 }
