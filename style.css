@@ -1,0 +1,52 @@
+*{ /*reseta a formatação padrão dos navegadores*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    color: #f4f4f4;
+    font-family: "Oswald", sans-serif; /*procura da fonte*/
+    line-height: 1.6; /*espaçamento entre linhas*/
+}
+
+.cabecalho-principal{ /*como chamar as classes*/
+    background-color: #000000;
+    border-bottom: 3px solid #e23636; /*linha de separação e sua expessura*/
+    display: flex;/*possibilita colocar elementos um ao lado do outro*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;/*é a profundidade - irá ficar por cima de tudo*/
+}
+
+.logo a{
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    background-color: #e23636;
+    padding: 2px 10px;
+    letter-spacing: -2px;
+
+}
+
+.menu-horizontal{
+    list-style: none; /*virou uma lista sem estilo*/
+    display: flex;
+    gap: 30px; /*lacuna - espaço entre uma coisa e outra*/
+}
+
+.menu-horizontal > li > a{ /*mexe na lista que está dentro da lista*/
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;/*transforma tudo em maiúscula*/
+    transition: color 0.3s ease; /*duração do efeito*/
+}

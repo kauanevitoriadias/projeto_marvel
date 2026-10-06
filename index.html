@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet"> <!--Fonte colocada dentro do site para funcionar em todos os computadores-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="style.css"> <!--Importação do arquivo CSS para o HTML-->
+</head>
+<body>
+    <header class="cabecalho-principal">
+        <div class="logo">
+            <a href="#"> MARVEL</a>
+
+        </div>
+
+        <nav>
+            <ul class="menu-horizontal">
+                <li> <a href="#inicio">Início</a></li><!--uso de links na lista não ordenada-->
+                <li class="dropdown"> <a href="#resumo-mcu">Sagas MCU ▼</a>
+
+                    <ul class="submenu"> <!--sub lista dentro de um item da lista-->
+                        <li> <a href="#">Saga do Infinito</a></li>
+                        <li> <a href="#">saga do Multiverso</a></li>
+                    </ul>
+
+                </li>
+                <li> <a href="#trailer">Trailer</a></li>
+
+            </ul>
+        </nav> <!--nav é o menu de navegação-->
+    </header>
+
+    <main>
+        <section id="inicio" class="hero"> <!--É colocad o id para diferenciar a formatação, pois se deixar só a classe ele formata todas elas iguais-->
+            <div class="conteudo-hero">
+                <h1>O Universo Cinematográfico</h1>
+                <p> Mergulhe na história das joias do infinito e prepare-se para o caos do Multiverso.</p>
+                <a href="#resumo-mcu" class="botao">Explorar a História</a>
+            </div>
+
+        </section>
+
+        <section id="resumo-mcu" class="secao-mcu">
+            <h2 class="titulo-grudento">A saga do infinito (Fases 1, 2 e 3)</h2>
+
+            <div class="conteudo-saga">
+                <p>O Universo Cinematogáfico Marvel (MCU) começou em 2008 com a genialidade e a armadura do Homem de Ferro.</p>
+
+            </div>
+
+            <h2 class="titulo-grudento">A Saga do Multiverso (Fases 4, 5 e 6)</h2> <!--Vai seguir a mesma formatação do primeiro h2 devido a nomeação da classe-->
+            <div class="conteudo-saga">
+                <p>Após a épca derrota de Thanos e a perda de membros originais dos Vingadores, o universo, ou melhor, o <strong>multiverso</strong> se expandiu sem limites.</p>
+            </div>
+
+        </section>
+
+        <section id="trailer" class="secao-video">
+            <h2 class="titulo-secao">Reviva o Épico (Trailer)</h2>
+
+            <p class="subtitulo-video">Assista ao confronto final que uniu dezenas de heróis em uma só batalha.</p>
+
+            <div class="conteiner-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HiAzj9HZQnE?si=1edy1l97TIDkXaCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Como colocar vídeo do youtube dentro do site-->
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2026 - Desenvolvido para aulas de HTML e CSS. Foco em Menus e Posicionamento</p>
+    </footer>
+
+</body>
+</html>
