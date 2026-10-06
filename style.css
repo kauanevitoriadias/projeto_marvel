@@ -50,3 +50,18 @@ body{
     text-transform: uppercase;/*transforma tudo em maiúscula*/
     transition: color 0.3s ease; /*duração do efeito*/
 }
+
+.menu-horizontal > li > a:hover{
+    color: #e23636;
+}
+
+.dropdown{
+    position: relative; /* a possição dela vai ser definida de acordo com a classe 'parente/pai' dela*/
+}
+
+.submenu{
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
