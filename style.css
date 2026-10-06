@@ -140,3 +140,23 @@ body{
 .botao:hover{
     transform: scale(1.10);
 }
+
+.secao-mcu{
+    padding: 60px 10%;
+    background-color: #121212;
+}
+
+.titulo-grudento{
+    position: sticky;
+    top: 75px;
+    background-color: #e23636;
+    color: white;
+    padding: 15px 25px;
+    margin: 40px 0 20px 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    z-index: 10;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.5);
+}
