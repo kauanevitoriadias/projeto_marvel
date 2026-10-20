@@ -173,3 +173,9 @@ body{
     margin-bottom: 25px;
     line-height: 1.8;
 }
+
+.secao-video{
+    padding: 80px 10%;
+    background-color: #0a0a0a;
+    text-align: center;
+}
