@@ -147,7 +147,7 @@ body{
 }
 
 .titulo-grudento{
-    position: sticky;
+    position: sticky; 
     top: 75px;
     background-color: #e23636;
     color: white;
