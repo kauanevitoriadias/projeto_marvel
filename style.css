@@ -160,3 +160,16 @@ body{
     z-index: 10;
     box-shadow: 0px 4px 6px rgba(0,0,0,0.5);
 }
+
+.conteudo-saga{
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 5px solid #444;
+}
+
+.conteudo-saga p {
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
