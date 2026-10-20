@@ -187,3 +187,9 @@ body{
     margin-bottom: 10px;
     text-transform: uppercase;
 }
+
+.subtitulo-video{
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 40px;
+}
